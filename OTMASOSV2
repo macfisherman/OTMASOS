@@ -27,7 +27,7 @@ else :
 
 #security clearance will have a use later in development, but right now, it just looks professional.
 print ("Please Enter your password ")
-passWord = input("password:")
+passWord = input("password: ")
 if passWord == ("Otmas64134@@") :
     print ("Access granted, Security Clearance: 10")
 elif passWord == ("macofish") :
