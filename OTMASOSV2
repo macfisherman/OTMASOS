@@ -52,10 +52,10 @@ while goAgain == "y":
             print ("He is in the bathroom")
     elif user_response == ("Launch a nuke") :
         nuke_location = input ("Where would you like to nuke?")
-        print ("%s got nuked" %nuke_location)
+        print ("%s got nuked" % nuke_location)
     elif user_response == ("Set TARDIS Co-ords") :
         tardis_timePlace = input ("Where would you like to go?")
-        print ("Welcome to %s" %tardis_timePlace)
+        print ("Welcome to %s" % tardis_timePlace)
     elif user_response == ("Make an Appointment") :
         print ("this is WIP")
     elif user_response == ("Shutdown") :
