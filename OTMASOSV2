@@ -45,7 +45,9 @@ while goAgain == "y":
             print ("YOU WILL DIE NOW!")
             sys.exit()
     elif user_response == ("Do My Homework") :
-            print ("This is a WIP")
+            math = input ("Enter a math expression: ")
+            result = eval(math)
+            print ("The answer is %s" % result)
     elif user_response == ("info") :
             print ("This is a fake OS developed by Otmas with help from Macfisherman")
     elif user_response == (" WHERE THE HECK IS OWEN???") :
