@@ -3,11 +3,13 @@ import sys
 
 #this line sets up the while loop
 goAgain = "y"
+
 #these lines give a little backround
 print (" Hello, welcome to OtmasOS 2.0.0.")
 print ("Unfortunately, we are in Alpha development right now, so you cannot access the")
 print ("internet, and the developers have not said they will add that capability.")
 print ("type info for more information")
+
 #this adds a little security but not much since everyon can see it
 print ("in order to continue, please enter your username")
 user_name = input (" username:")
