@@ -19,6 +19,8 @@ elif user_name == ("Owen M.") :
     print ("welcome owen.")
 elif user_name == ("Zach") :
     print ("Welcome Zach, friend of Otmas")
+elif user_name == ("Macfisherman") :
+    print ("Welcome Macfisherman, friend of Otmas")
 else :
     print ("STOP HACKING YOU BIG BOZO")
     sys.exit()
