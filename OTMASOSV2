@@ -5,14 +5,14 @@ import sys
 goAgain = "y"
 
 #these lines give a little backround
-print (" Hello, welcome to OtmasOS 2.0.0.")
+print ("Hello, welcome to OtmasOS 2.0.0.")
 print ("Unfortunately, we are in Alpha development right now, so you cannot access the")
 print ("internet, and the developers have not said they will add that capability.")
 print ("type info for more information")
 
 #this adds a little security but not much since everyon can see it
 print ("in order to continue, please enter your username")
-user_name = input (" username:")
+user_name = input ("username: ")
 if user_name == ("Otmas") :
     print ("Welcome, Otmas creator of us all")
 elif user_name == ("Owen M.") :
@@ -26,7 +26,7 @@ else :
     sys.exit()
 
 #security clearance will have a use later in development, but right now, it just looks professional.
-print ("Please Enter your password")
+print ("Please Enter your password ")
 passWord = input("password:")
 if passWord == ("Otmas64134@@") :
     print ("Access granted, Security Clearance: 10")
@@ -40,9 +40,9 @@ else :
 
 while goAgain == "y":
     print (" the different options are: Shutdown, Launch a nuke, DEATH, and info")
-    user_response = input("what would you like to do today?")
+    user_response = input("what would you like to do today? ")
     if user_response == "DEATH" :
-            print (" YOU WILL DIE NOW!")
+            print ("YOU WILL DIE NOW!")
             sys.exit()
     elif user_response == ("Do My Homework") :
             print ("This is a WIP")
@@ -51,17 +51,17 @@ while goAgain == "y":
     elif user_response == (" WHERE THE HECK IS OWEN???") :
             print ("He is in the bathroom")
     elif user_response == ("Launch a nuke") :
-        nuke_location = input ("Where would you like to nuke?")
+        nuke_location = input ("Where would you like to nuke? ")
         print ("%s got nuked" % nuke_location)
     elif user_response == ("Set TARDIS Co-ords") :
-        tardis_timePlace = input ("Where would you like to go?")
+        tardis_timePlace = input ("Where would you like to go? ")
         print ("Welcome to %s" % tardis_timePlace)
     elif user_response == ("Make an Appointment") :
         print ("this is WIP")
     elif user_response == ("Shutdown") :
         sys.exit()
 
-    goAgain = input ("Press Y to continue, or any other letter to exit")
+    goAgain = input ("Press Y to continue, or any other letter to exit ")
 
     
 sys.exit()
